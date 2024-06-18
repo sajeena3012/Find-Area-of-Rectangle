@@ -11,3 +11,6 @@ The first line of input contains two integers, both separated by a single space 
 
 Output Format:
 The only line of output prints the area of the rectangle.
+
+Constraints:
+1 <= L, B <= 10ˆ2
