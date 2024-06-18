@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Loop until there are no more inputs
+        while (scanner.hasNext()) {
+            // Taking input for length and breadth
+            int length = scanner.nextInt();
+            int breadth = scanner.nextInt();
+
+            // Calculating area
+            int area = length * breadth;
+
+            // Printing the area
+            System.out.println(area);
+        }
+
+        // Closing the scanner
+        scanner.close();
+    }
+}
